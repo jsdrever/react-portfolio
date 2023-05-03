@@ -41,7 +41,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card ">
         <div className="card-image">
-          <img src="./images/night-tiger.png" />
+          <img src={ require("../../images/night-tiger.png") } />
           <span className="card-title">Tic Tac Toe</span>
         </div>
         <div className="card-content aboutmoi">
