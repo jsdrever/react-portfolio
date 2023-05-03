@@ -81,7 +81,7 @@ export default function Home() {
     <div className="col s6 m6">
       <div className="card">
         <div className="card-image">
-          <img src="images/passwordGen.jpeg" />
+          <img src={ require( "../../images/passwordGen.jpeg") } />
           <span className="card-title">Generate a Password</span>
         </div>
         <div className="card-content aboutmoi">
@@ -104,7 +104,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src="images/rrr.jpeg" />
+          <img src={ require ("../../images/rrr.jpeg") } />
           <span className="card-title" />
         </div>
         <div className="card-content aboutmoi">
@@ -122,7 +122,7 @@ export default function Home() {
     <div className="col s6 m6">
       <div className="card">
         <div className="card-image">
-          <img src="images/skySunsetter copy 2.jpeg" />
+          <img src={ require ("../../images/skySunsetter copy 2.jpeg") } />
           <span className="card-title" />
         </div>
         <div className="card-content aboutmoi">
