@@ -61,7 +61,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src="images/schedule.jpeg" />
+          <img src={ require( "../../images/schedule.jpeg") } />
           <span id="blackdog" className="card-title">Scheduler App</span>
         </div>
         <div className="card-content aboutmoi">
