@@ -10,7 +10,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src="images/stoxx.png" />
+          <img src={ require("../../images/stoxx.png")} />
           <span className="card-title">StoxX</span>
         </div>
         <div className="card-content aboutmoi">
