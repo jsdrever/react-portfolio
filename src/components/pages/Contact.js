@@ -11,6 +11,7 @@ export default function Contact() {
             <a href="https://www.warnerbros.com/movies/youve-got-mail">jsdrever09@gmail.com</a>
             <br></br>
             <a href="https://github.com/jsdrever">Github</a>
+            <a href="https://www.linkedin.com/in/jeff-drever-4022aa86/">LinkedIn</a>
     </div>
   );
 }
