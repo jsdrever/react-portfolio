@@ -3,14 +3,14 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <h1>Work for now</h1>
+      <h1>Portfolio</h1>
       <div>
   <div id="work-me" className="row">
-    <div className="work-header">Magnus Operandi</div>
+    <div className="work-header"> <h5> Magnus Operandi </h5></div>
     <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src={ require("../../images/stoxx.png")} />
+          <img src={ require("../../images/stoxx.png")} alt='Stocks Inquirer'/>
           <span className="card-title">StoxX</span>
         </div>
         <div className="card-content aboutmoi">
@@ -24,7 +24,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src={ require("../../images/quiz.jpeg")} />
+          <img src={ require("../../images/quiz.jpeg")} alt='Quiz App'/>
           <span className="card-title">Quiz</span>
         </div>
         <div className="card-content aboutmoi">
@@ -41,7 +41,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card ">
         <div className="card-image">
-          <img src={ require("../../images/night-tiger.png") } />
+          <img src={ require("../../images/night-tiger.png") } alt='tic tac toe' />
           <span className="card-title">Tic Tac Toe</span>
         </div>
         <div className="card-content aboutmoi">
@@ -61,7 +61,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src={ require( "../../images/schedule.jpeg") } />
+          <img src={ require( "../../images/schedule.jpeg") } alt='Daily Planner App'/>
           <span id="blackdog" className="card-title">Scheduler App</span>
         </div>
         <div className="card-content aboutmoi">
@@ -78,10 +78,10 @@ export default function Home() {
       </div>
     </div>
     {/* password generator */}
-    <div className="col s6 m6">
+    <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src={ require( "../../images/passwordGen.jpeg") } />
+          <img src={ require( "../../images/passwordGen.jpeg") } alt='Password Generator'/>
           <span className="card-title">Generate a Password</span>
         </div>
         <div className="card-content aboutmoi">
@@ -104,7 +104,7 @@ export default function Home() {
     <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src={ require ("../../images/rrr.jpeg") } />
+          <img src={ require ("../../images/rrr.jpeg") } alt='Basic Website'/>
           <span className="card-title" />
         </div>
         <div className="card-content aboutmoi">
@@ -119,10 +119,10 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="col s6 m6">
+    <div className="col s4 m6">
       <div className="card">
         <div className="card-image">
-          <img src={ require ("../../images/skySunsetter copy 2.jpeg") } />
+          <img src={ require ("../../images/skySunsetter copy 2.jpeg") } alt='Weather Prediction App' />
           <span className="card-title" />
         </div>
         <div className="card-content aboutmoi">
