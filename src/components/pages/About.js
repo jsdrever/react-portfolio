@@ -23,6 +23,16 @@ export default function About() {
       </div>
     </div>
 </div>
+<div className="row">
+  <div className="col s12 m7">
+    <div className="card">
+      <div className="card-image">
+        <img src="images/sample-1.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>
   );
   }
