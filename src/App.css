@@ -3,6 +3,14 @@
   
 } */
 
+#contact {
+  color: #151413;
+   margin: 0 auto;
+   width: 500px;
+   padding: 10px;
+   border: 5px solid #151413;
+   border-radius: 20px;
+ }
 
 .App {
   text-align: center;
