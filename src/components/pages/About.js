@@ -29,10 +29,12 @@ export default function About() {
     </div>
   </div>
 </div>
+<p><svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle cx="150" cy="100" r="80" fill="black" /><text x="150" y="125" font-size="60" text-anchor="middle" fill="White">J$D</text></svg></p>
 <div id="work-me" className="row">
     <div className="work-header"> <h5> Magnus Alumni </h5></div>
     <div className="col s4 m6">
       <div className="card">
+
         <div className="card-image">
           <img src={ require("../../images/blue devil.webp")} alt='Bremen High School'/>
         </div>

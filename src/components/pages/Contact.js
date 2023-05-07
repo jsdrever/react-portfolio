@@ -12,6 +12,7 @@ export default function Contact() {
             <br></br>
             <a href="https://github.com/jsdrever">Github</a>
             <a href="https://www.linkedin.com/in/jeff-drever-4022aa86/">LinkedIn</a>
+            <p>(┛ಠ_ಠ)┛彡┻━┻</p>
     </div>
   );
 }

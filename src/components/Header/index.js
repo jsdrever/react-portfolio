@@ -8,7 +8,7 @@ const Header = () => {
           Jeff $. Drever
         </h1>
         <p className="m-0" style={{ fontSize: '1.75rem', fontWeight: '700' }}>
-          Full Stack Web Dev
+        (┛ಠ_ಠ)┛彡┻━┻    Full Stack Web Dev
         </p>
       </div>
     </header>
