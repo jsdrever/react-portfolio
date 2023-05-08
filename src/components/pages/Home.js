@@ -8,7 +8,7 @@ export default function Home() {
 {/* stoxx */}
 <div id="work-me" className="row">
   <div className="work-header">Magnus Operandi</div>
-  <div className="col s4 m6">
+  <div className="col s6 m6">
     <div className="card">
       <div className="card-image">
       <img src={ require("../../images/stoxx.png")} alt='Stocks Inquirer'/>
@@ -23,7 +23,7 @@ export default function Home() {
     </div>
   </div>
   {/* quiz app */}
-  <div className="col s4 m6">
+  <div className="col s6 m6">
     <div className="card">
       <div className="card-image">
       <img src={ require("../../images/quiz.jpeg")} alt='Quiz App'/>
@@ -49,13 +49,13 @@ export default function Home() {
           <p id="pepe">This project was brought to you by the creative minds of Seriously Sticky Student Solutions INC in collaboration with TableFlip Coders ©(┛ಠ_ಠ)┛彡┻━┻  Jeff Drever, Danielle Sison, Justin Crowson, Josh Romani, Vageli Stathatos, George Jordan, Corey Calbreath.</p>
         </div>
         <div id="footocard" className="card-action">
-          <a href="https://jsdrever.github.io/gluttonous/">Take my quiz</a>
+          <a href="https://nic-tac-toe.herokuapp.com/games">Play some games with Mr. Cage</a>
         </div>
       </div>
     </div>
     {/* tic tac toe */}
     <div className="row">
-      <div className="col s4 m6">
+      <div className="col s6 m6">
         <div className="card ">
           <div className="card-image">
           <img src={ require("../../images/night-tiger.png") } alt='tic tac toe' />
@@ -74,7 +74,7 @@ export default function Home() {
       </div>
     </div>
     {/* scheduler app */}
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card">
         <div className="card-image">
         <img src={ require( "../../images/schedule.jpeg") } alt='Daily Planner App'/>
@@ -94,7 +94,7 @@ export default function Home() {
       </div>
     </div>
     {/* password generator */}
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card">
         <div className="card-image">
         <img src={ require( "../../images/passwordGen.jpeg") } alt='Password Generator'/>
@@ -117,7 +117,7 @@ export default function Home() {
   </div>
   {/* round rock replacements */}
   <div className="row">
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card">
         <div className="card-image">
         <img src={ require ("../../images/rrr.jpeg") } alt='Basic Website'/>
@@ -136,7 +136,7 @@ export default function Home() {
       </div>
     </div>
     {/* weather app */}
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card">
         <div className="card-image">
         <img src={ require ("../../images/skySunsetter copy 2.jpeg") } alt='Weather Prediction App' />
@@ -153,7 +153,7 @@ export default function Home() {
   </div>
   {/* read me generator */}
   <div className="row">
-    <div className="col s4 m7">
+    <div className="col s6 m7">
       <div className="card">
         <div className="card-image">
           <img src={ require ("../../images/Screenshot 2023-05-06 at 3.14.34 PM.png")} alt='readme' />
@@ -168,7 +168,7 @@ export default function Home() {
       </div>
     </div>
     {/* note taker */}
-    <div className="col s4 m7">
+    <div className="col s6 m7">
       <div className="card">
         <div className="card-image">
         <img src={ require ("../../images/Screenshot 2023-05-07 at 12.44.56 PM.png")} alt='readme' />
@@ -185,7 +185,7 @@ export default function Home() {
   </div>
   {/* sql employee tracker database */}
   <div className="row">
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card blue-grey darken-1">
         <div className="card-content white-text">
           <span className="card-title">Sql Database </span>
@@ -197,7 +197,7 @@ export default function Home() {
       </div>
     </div>
     {/* ORM */}
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card blue-grey darken-1">
         <div className="card-content white-text">
           <span className="card-title">Object Relational Mapping </span>
@@ -209,7 +209,7 @@ export default function Home() {
       </div>
     </div>
     {/* mvc tech blog */}
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card blue-grey darken-1">
         <div className="card-content white-text">
           <span className="card-title"> Model View Controller Tech Blog </span>
@@ -221,7 +221,7 @@ export default function Home() {
       </div>
     </div>
     {/* logo generator */}
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card blue-grey darken-1">
         <div className="card-content white-text">
           <span className="card-title">SVG Logo Generator</span>
@@ -233,7 +233,7 @@ export default function Home() {
       </div>
     </div>
     {/* regex tips/cheatsheet */}
-    <div className="col s4 m6">
+    <div className="col s6 m6">
       <div className="card blue-grey darken-1">
         <div className="card-content white-text">
           <span className="card-title">Regex</span>
